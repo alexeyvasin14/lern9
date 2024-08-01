@@ -1,10 +1,9 @@
-name = 'Alexey'
-print(name)
-age = 59
-print('Age:',age)
-new_age = 1
-
-a = (age + new_age)
-print('New Age:',a)
-is_student = True
-print('Is Student:',is_student)
+my_string = input("Привет, друг. Напиши свое имя ")
+a =len('Привет, друг. Напиши свое имя ')
+print(a)
+my_string = input('Привет, друг. Напиши свое имя ')
+print('привет, друг. напиши свое имя '.upper())
+print('привет, друг. напиши свое имя '.lower())
+print('привет, друг. напиши свое имя '.replace(" ", ''))
+print('привет, друг. напиши свое имя'[0])
+print('привет, друг. напиши свое имя'[-1])
